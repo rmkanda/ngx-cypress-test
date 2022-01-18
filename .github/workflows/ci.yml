@@ -31,5 +31,5 @@ jobs:
       with:
           token: ${{ secrets.gs }}
           branch: gh-pages 
-          folder: public
+          folder: dist
           clean: true
